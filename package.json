@@ -1,0 +1,9 @@
+{
+  "name": "kavi-art-studio",
+  "version": "1.0.0",
+  "description": "Website for Kavi Art Studio",
+  "main": ".eleventy.js",
+  "repository": "https://github.com/Sriman97/KaviArtStudio.git",
+  "author": "Sriman97 <sriman9708@gmail.com>",
+  "license": "MIT"
+}
