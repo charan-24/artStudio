@@ -1,0 +1,5 @@
+.gitignore
+.lintstagedrc
+yarn.lock
+.husky/*
+.eslintignore
