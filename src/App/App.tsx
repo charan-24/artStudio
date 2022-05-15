@@ -11,7 +11,9 @@ import { Courses } from '@/pages/courses/Courses'
 import { Gallery } from '@/pages/gallery/Gallery'
 
 // styles
-import './App.scss'
+/* The following line can be included in your src/index.js or App.js file */
+
+import './App.scss';
 
 export const App = () => {
   return (

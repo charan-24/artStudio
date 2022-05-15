@@ -1,3 +1,3 @@
 export const Gallery = () => {
-  return <div>Gallery</div>
+  return <div className="nav-content">Gallery</div>
 }

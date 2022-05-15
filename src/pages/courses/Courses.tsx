@@ -1,3 +1,3 @@
 export const Courses = () => {
-  return <div>Courses</div>
+  return <div className="nav-content">Courses</div>
 }
