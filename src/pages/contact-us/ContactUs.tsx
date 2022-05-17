@@ -16,7 +16,7 @@ export const ContactUs = () => {
         <ul>
           <li>
             <a href="https://api.whatsapp.com/send?phone=918106532696&text=Hi%20Kavitha%20Ma%27am.%20I%20just%20saw%20your%20website%20and%20I%20am%20curious%20to%20know.....">
-            <Row className="Row">
+            <Row className="appRow">
           <Col className="appsCol1" lg={1}>
           <bsIcons.BsWhatsapp className="appIcons"/>
           </Col>
@@ -29,7 +29,7 @@ export const ContactUs = () => {
         </li>
         <li>
           <a href="mailto:info@kaviartstudio.in">
-            <Row className="Row">
+            <Row className="appRow">
           <Col className="appsCol2" lg={1}>
           <ioIcons.IoMailOpenOutline className="appIcons"/>
           </Col>
@@ -42,7 +42,7 @@ export const ContactUs = () => {
         </li>
         <li>
           <a href="https://www.instagram.com/kavi_artstudio/">
-            <Row className="Row">
+            <Row className="appRow">
           <Col className="appsCol3" lg={1}>
           <fiIcons.FiInstagram className="appIcons"/>
           </Col>
@@ -57,7 +57,7 @@ export const ContactUs = () => {
         <ul>
           <li>
             <a href="https://www.youtube.com/channel/UCf7GDsRKAWih4IAYCpFXoGA">
-            <Row className="Row">
+            <Row className="appRow">
           <Col className="appsCol4" lg={1}>
           <fiIcons.FiYoutube className="appIcons"/>
           </Col>
@@ -70,7 +70,7 @@ export const ContactUs = () => {
         </li>
         <li>
           <a href="https://www.facebook.com/KaviArtStudio/">
-            <Row className="Row">
+            <Row className="appRow">
           <Col className="appsCol5" lg={1}>
           <fiIcons.FiFacebook className="appIcons"/>
           </Col>
@@ -83,7 +83,7 @@ export const ContactUs = () => {
         </li>
         <li>
           <a href="https://in.pinterest.com/kaviartstudio">
-        <Row className="Row pt">
+        <Row className="appRow">
           <Col className="appsCol6" lg={1}>
           <faIcons.FaPinterestP className="appIcons"/>
           </Col>
@@ -99,7 +99,7 @@ export const ContactUs = () => {
       <h3 className="appointment">VISIT US (WITH APPOINTMENT ONLY)</h3>
       <div className="maps">
       <Card className="mapCard" style={{ width: '30rem'}}>
-        <Card.Img variant="top" src="https://static.wixstatic.com/media/c9480b_bf0491154cf147ed94139ce403b733fc~mv2.jpg/v1/crop/x_383,y_214,w_636,h_357/fill/w_599,h_338,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/c9480b_bf0491154cf147ed94139ce403b733fc~mv2.jpg" />
+       <a href="https://www.google.com/maps/place/Kavi+Art+Studio/@17.4055645,78.3872292,17z/data=!3m1!4b1!4m5!3m4!1s0x3bcb90cabd542a55:0xd3e9d0856620548c!8m2!3d17.4055619!4d78.3894669"><Card.Img variant="top" src="https://static.wixstatic.com/media/c9480b_bf0491154cf147ed94139ce403b733fc~mv2.jpg/v1/crop/x_383,y_214,w_636,h_357/fill/w_599,h_338,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/c9480b_bf0491154cf147ed94139ce403b733fc~mv2.jpg" /></a> 
         <Card.Body>
         <Card.Title className="mt-3"><b>Tellapur Address</b></Card.Title>
         <Card.Text className="mt-5">
@@ -111,7 +111,7 @@ export const ContactUs = () => {
       </Card.Body>
       </Card>
       <Card className="mapCard" style={{ width: '30rem' }}>
-        <Card.Img variant="top" src="https://static.wixstatic.com/media/c9480b_abe1b489ab564417a1ea7108dccade5b~mv2.jpg/v1/crop/x_263,y_167,w_667,h_376/fill/w_599,h_338,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/c9480b_abe1b489ab564417a1ea7108dccade5b~mv2.jpg" />
+        <a href="https://www.google.com/maps/place/Kavi+Art+Studio/@17.4055645,78.3872292,17z/data=!3m1!4b1!4m5!3m4!1s0x3bcb90cabd542a55:0xd3e9d0856620548c!8m2!3d17.4055619!4d78.3894669"><Card.Img variant="top" src="https://static.wixstatic.com/media/c9480b_abe1b489ab564417a1ea7108dccade5b~mv2.jpg/v1/crop/x_263,y_167,w_667,h_376/fill/w_599,h_338,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/c9480b_abe1b489ab564417a1ea7108dccade5b~mv2.jpg" /></a> 
         <Card.Body>
         <Card.Title className="mt-3"><b>Manikonda Address</b></Card.Title>
         <Card.Text className="mt-5">
