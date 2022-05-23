@@ -1,0 +1,68 @@
+.Tfooter{
+    font-family: 'Fira Sans', sans-serif;
+    text-align: center;
+    a{
+      color: #717071;
+    }
+  }
+  .fcard3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: start;
+    align-items: flex-start;
+    a:hover{
+      text-decoration: none;
+    }
+    li{
+      margin-bottom: 20px;
+      color: black;
+    }
+  }
+  .fcard2{
+    a{
+      text-decoration: underline;
+    }
+   
+    .mediaIcons ul{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 10px;
+      font-size: 30px;
+    }
+    .Icon1, .Icon2, .Icon3, .Icon4{
+     padding: 10.4px 10.4px 0 10.4px; 
+     border-radius: 50%;
+    }
+    .Icon4{
+      background: #25D366;
+    }
+    .Icon4:hover{
+      background: white;
+      box-shadow: #25D366 0px 3px 8px;
+    }
+    .Icon2{
+      background: #ffd633;
+      }
+    .Icon2:hover{
+      background: white;
+      box-shadow: #ffd633 0px 3px 8px;
+      }
+    .Icon1{
+      background: #ff4d4d;
+      }
+    .Icon1:hover{
+      background: white;
+      box-shadow: #ff4d4d 0px 3px 8px;
+      }
+    .Icon3{
+      background: #66ccff;
+      }
+    .Icon3:hover{
+      background: white;
+      box-shadow: #66ccff 0px 3px 8px;
+      }
+  }
+  

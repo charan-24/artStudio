@@ -15,7 +15,9 @@ import { Gallery } from '@/pages/gallery/Gallery'
 /* The following line can be included in your src/index.js or App.js file */
 
 import './App.scss';
-
+import '../components/footer/Footer.scss';
+import '../components/navbar/Navbar.scss';
+import '../pages/contact-us/ContactUs.scss';
 export const App = () => {
   return (
     <div>
