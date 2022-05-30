@@ -96,7 +96,7 @@ export const ContactUs = () => {
         </li>
         </ul>
       </div>
-      <h3 className="appointment">VISIT US (WITH APPOINTMENT ONLY)</h3>
+      <h3 className="appointment"> <b>VISIT US (WITH APPOINTMENT ONLY)</b> </h3>
       <div className="maps">
       <Card className="mapCard" style={{ width: '30rem'}}>
        <a href="https://www.google.com/maps/place/Kavi+Art+Studio/@17.4055645,78.3872292,17z/data=!3m1!4b1!4m5!3m4!1s0x3bcb90cabd542a55:0xd3e9d0856620548c!8m2!3d17.4055619!4d78.3894669"><Card.Img variant="top" src="https://static.wixstatic.com/media/c9480b_bf0491154cf147ed94139ce403b733fc~mv2.jpg/v1/crop/x_383,y_214,w_636,h_357/fill/w_599,h_338,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/c9480b_bf0491154cf147ed94139ce403b733fc~mv2.jpg" /></a> 

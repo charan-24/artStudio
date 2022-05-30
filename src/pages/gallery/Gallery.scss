@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Smooch&display=swap');
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
+.gallery{
+    background-color: rgb(224, 240, 215);
+    overflow: hidden;
+}
+.gallery1{
+    background-image: url('./images/background1.webp');
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    .header{
+        padding-top: 500px;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.997);
+        font-size: 40px;
+    }
+    .caption{
+        font-family: 'Clicker Script', cursive;
+        text-align: center;
+        font-size: 80px;  
+        background-image: url('images/brush-stroke1.webp');
+        background-size: 480px 106px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
+
+.gallery2{
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 180px;
+    .g2header{
+        p{
+            text-align: center;
+            font-size: 28px;
+        }  
+    }
+    img{
+        display: block;
+        margin: auto;
+        height: 7px;
+        width: 30%;
+    }
+    .gallery2p{
+        line-height: 35px;
+        font-size: 20px;
+        width: 70%;
+        margin: auto;
+        margin-top: 50px;
+    }
+}
+
+.gallery3{
+    text-align: center;
+    margin-top: 200px;
+     .carousel-control-prev-icon,
+    .carousel-control-next-icon,
+    .visually-hidden{
+    filter: invert(1)
+    }
+}
+.gallery4{
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    .header{
+        font-size: 30px;
+        text-align: center;
+    }
+    img{
+        display: block;
+        margin: auto;
+        height: 7px;
+        width: 651px;
+    }
+    .facilities{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        
+    }
+    .fac{
+        margin-top: 100px;
+        text-align: center;
+    p{
+        text-align: center;
+        margin-top: 10px;
+    }
+    }
+    .ficon{
+        font-size: 80px;
+    }   
+}
+.gallery5, .gallery7, .gallery9, .gallery11{
+    height: 100vw;
+    width: 100%;
+    background-image: url('./images/background2.webp');
+    background-position: center center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.gallery7{
+    background-image: url('./images/background3.webp');
+}
+.gallery9{
+    background-image: url('./images/background4.webp');
+}
+.gallery11{
+    background-image: url('./images/background5.webp');
+}
+
+.gallery6, .gallery8, .gallery10, .gallery12{
+    text-align: center;
+    margin-bottom: 50px;
+    p{
+        text-align: center;
+    }
+    .p1{
+        font-family: 'Clicker Script', cursive;
+        font-size: 50px;
+        font-weight: bold; 
+        margin-top: 40px;
+    }
+    .p2{
+        font-family: 'Fira Sans', sans-serif;
+        font-size: 20px; 
+    }
+    button{
+        width: 200px;
+        height: 50px;
+        border: 1px solid black;
+    }
+    button:hover{
+        background-color: #f6d365;
+        color: white;
+    }
+    .card-body{
+        background-color: rgb(224, 240, 215);
+    }
+}
+.gallery12{
+    margin-bottom: 150px;
+    button{
+        width: 500px;
+        text-align: center;
+        height: 50px;
+        border-radius: 5px;
+        background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%, #f6d365 100%);
+        border: 0px;
+        cursor: pointer;
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    }
+    button:hover{
+        background-image: radial-gradient(circle farthest-side, #fceabb, #f8b500);
+    }
+}
+
+@media (min-width:768px) and (max-width:992px){
+.gallery6{
+    .title{
+        font-size: 15px;
+    }
+    .desc{
+        font-size: 15px;
+    }
+    }
+    .gallery6, .gallery8, .gallery10, .gallery12{
+        .title{
+            font-size: 15px;
+        }
+    }
+}
+
+//min-width:576px and max-width:767
+
+@media (min-width:576px) and (max-width:767px){
+    .gallery4{
+    .header{
+        font-size: 25px;
+    }
+    img{
+        width: 450px;
+    }
+    .facilities{
+        justify-content: space-evenly;
+    }
+    .fac{
+        margin-top: 50px;
+    p{
+        margin-top: 10px;
+    }
+    }
+    .ficon{
+        font-size: 60px;
+    }
+    }
+    .gallery6, .gallery8, .gallery10, .gallery12{
+        .p1{
+            font-size: 40px;
+        }
+        .p2{
+            font-size: 15px; 
+        }
+    }
+    .gallery5, .gallery7, .gallery9, .gallery11{
+        background-attachment: scroll;
+    }
+}
+
+//min-width:320px and max-width:575px
+
+@media (min-width:320px) and (max-width:575px){
+    .gallery1{
+        .header{
+            font-size: 20px;
+            margin-bottom: 2px;
+        }
+        .caption{
+            background-size: 300px 80px;
+            b{
+                font-size: 50px;
+            }
+        }
+    }
+    .gallery2{
+        margin-top: 80px;
+        .g2header{
+            p{
+                font-size: 20px;
+            }
+            img{
+                width: 250px;
+            }
+        }
+            .gallery2p{
+                width: 90%;
+                p{
+                    font-size: 15px;
+                    text-align: left;
+                }
+                
+            }
+    }
+    .gallery3{
+        margin-top: 80px;
+    }
+    .gallery4{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        .header{
+            font-size: 20px;
+        }
+        img{
+            width: 250px;
+        }
+
+        .fac{
+            margin-top: 20px;
+        p{
+            margin-top: 10px;
+            font-size: 10px;
+        }
+        }
+        .ficon{
+            font-size: 40px;
+        }
+        }
+        .gallery6, .gallery8, .gallery10, .gallery12{
+            .p1{
+                font-size: 30px;
+            }
+            .p2{
+                font-size: 15px; 
+            }
+            .title{
+                font-size: 15px;
+            }
+        }
+        .gallery5, .gallery7, .gallery9, .gallery11{
+            background-attachment: scroll;
+        }
+        .gallery12{
+            button{
+                width: 280px;
+            }
+        }
+}
+
+// max-width:320px
+@media (max-width:320px){
+    .gallery1{
+        .header{
+            font-size: 20px;
+            margin-bottom: 1px;
+        }
+        .caption{
+            background-size: 250px 90px;
+            b{
+                font-size: 40px;
+            }
+        }
+    }
+    .gallery2{
+        margin-top: 80px;
+        .g2header{
+            p{
+                font-size: 20px;
+            }
+            img{
+                width: 250px;
+            }
+        }
+        .gallery2p{
+            width: 90%;
+            p{
+                font-size: 15px;
+                text-align: left;
+            }
+            
+        }
+    }
+    .gallery3{
+        margin-top: 80px;
+    }
+    .gallery4{
+        margin-bottom: 50px;
+        .header{
+            font-size: 20px;
+        }
+        .fac{
+            margin-top: 30px;
+        }
+        .ficon{
+            font-size: 40px;
+        }
+    }
+        .gallery6, .gallery8, .gallery10, .gallery12{
+            margin-bottom: 20px;
+            .p1{
+                font-size: 20px;
+            }
+            .p2{
+                font-size: 10px; 
+            }
+            .title{
+                font-size: 10px;
+            }
+        }
+        .gallery5, .gallery7, .gallery9, .gallery11{
+            background-attachment: scroll;
+        }
+        .gallery12{
+            button{
+                width: 200px;
+            }
+        }
+}

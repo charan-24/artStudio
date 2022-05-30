@@ -1,4 +1,4 @@
-import { Card, CardGroup, Col, Row } from "react-bootstrap"
+import { Card, CardGroup, Col, Row} from "react-bootstrap"
 import { Link } from "react-router-dom"
 import * as bsIcons from "react-icons/bs";
 import * as fiIcons from "react-icons/fi";
@@ -10,7 +10,7 @@ import * as ioIcons from "react-icons/io5";
 export const Footer = ()=>{
     return(
     <div className="Tfooter">
-        <CardGroup className="">
+        <CardGroup>
             <Card className="fcard1 border-0">
             <Card.Img src="https://static.wixstatic.com/media/c9480b_f4b9be4ef3034f85a8508757633cf329~mv2.png/v1/crop/x_47,y_67,w_705,h_424/fill/w_130,h_79,al_c,usm_0.66_1.00_0.01,enc_auto/IAsset%209.png" className="mx-auto" style={{width:200}}/>
             <Card.Body>
@@ -27,10 +27,10 @@ export const Footer = ()=>{
             <Card className="fcard2 border-0">
                <Card.Body>
                <Card.Title>
-                    CONNECT FOR UPDATES
+                   <b>CONNECT FOR UPDATES</b> 
                     <div className="mediaIcons position-relative p-3">
                      <ul className=" mt-3">
-                        <li><a href="" className="Icon1"><fiIcons.FiYoutube className=""/></a></li>
+                        <li><a href="" className="Icon1 "><fiIcons.FiYoutube className=""/></a></li>
                         <li><a href="" className="Icon2"><fiIcons.FiInstagram className=""/></a></li>
                         <li><a href="" className="Icon3"><fiIcons.FiFacebook className=""/></a></li>
                         <li><a href="" className="Icon4"><bsIcons.BsWhatsapp className=""/></a></li>
@@ -74,7 +74,11 @@ export const Footer = ()=>{
                 <li> <Link to='/'>Payment</Link> </li>
                 <li> <Link to='/'>Terms & Conditions</Link> </li>
                 <li> <Link to='/'>Privacy Policy</Link> </li>
-            </ul>  
+            </ul> 
+            <Card.Text className="creditsNote mt-5 text-warning">
+                     ©2020 Kavi Art Studio. All rights reserved.
+                     Designed by Srija Boora   
+            </Card.Text> 
             </Card>
         </CardGroup>
     </div>

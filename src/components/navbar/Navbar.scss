@@ -3,6 +3,7 @@
     font-family: 'Marcellus', serif;
     background-color: whitesmoke;
     border-bottom: 3px solid orange;
+    box-shadow: 5px 3px 8px #848383;
     img{
       margin-left: 20px;
     }
@@ -19,6 +20,15 @@
     a:focus{
       color: rgb(232, 177, 74);
     }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f1f1f1;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    .dropbtn:hover .dropdown-content {display: block;}
     .registerButton{
       font-size: 20px;
       cursor: pointer;
@@ -34,7 +44,6 @@
     .registerButton:hover{
       background-image: radial-gradient(circle farthest-side, #fceabb, #f8b500);
     }
-  
   }
 
   @media (min-width:768px) and (max-width:992px){
@@ -85,7 +94,7 @@
         .registerButton{
           position: static; 
           height: 60px;
-          width: 240px;
+          width: 210px;
         }
         .nav-item{
             text-align: center;

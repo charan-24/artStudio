@@ -1,0 +1,169 @@
+.main-painting{
+    overflow: hidden;
+}
+.paintingHeader{
+    padding: 40px;
+    background-color: #f6d365;
+    font-size: 40px;
+    p{
+        display: block;
+        margin: auto;
+    }
+  }
+  input{
+      margin-right: 5px;
+  }
+  .checks{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      font-size: 20px;
+  }
+  .card{
+      background-color: white;
+  }
+  .card-body{
+      padding: 0px;
+  }
+  .title{
+      font-size: 20px;
+  }
+  
+  .paintings{
+      overflow: hidden;
+  }
+
+  .endnote{
+      margin-bottom: 200px;
+      p{
+          text-align: center;
+          font-size: 25px;
+      }
+      ul{
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          gap: 30px;
+          li{
+          a{
+              color: black;
+              font-size: 30px;
+              padding: 10.4px 10.4px 0 10.4px; 
+              border-radius: 50%;
+          }
+          .Icon4{
+            background: #25D366;
+          }
+          .Icon4:hover{
+            background: white;
+            box-shadow: #25D366 0px 3px 8px;
+          }
+          .Icon2{
+            background: #ffd633;
+            }
+          .Icon2:hover{
+            background: white;
+            box-shadow: #ffd633 0px 3px 8px;
+            }
+            .Icon5{
+                background: #99e6ff;
+            }
+            .Icon5:hover{
+                background: white;
+                box-shadow: #99e6ff 0px 3px 8px;
+            }
+        }
+      }
+      button{
+          display: block;
+          margin: auto;
+          width: 300px;
+          border: 1px solid #ffd633;
+          background-color: white;
+          a{
+              color: black;
+              font-size: 20px;
+              text-decoration: none;
+          }
+      }
+      button:hover{
+        background-color: #ffd633;
+        border: none;
+        a{
+            color: white;
+        }
+      }
+
+  }
+  @media (min-width:767px) and (max-width:992px){
+    .paintingHeader{
+        font-size: 30px;
+    }
+  }
+  @media (min-width:576px) and (max-width:767px){
+    .paintingHeader{
+        font-size: 25px;
+    }
+  }
+  @media (min-width:320px) and (max-width:576px){
+    .paintingHeader{
+        font-size: 15px;
+        padding: 20px;
+    }
+      input{
+          height: 15px;
+          width: 15px;
+      }
+      label{
+          margin-left: 10px;
+      }
+      .checks{
+          font-size: 20px;
+            margin-left: 15px;
+          flex-direction: column;
+      }
+      .title{
+          font-size: 15px;
+      }
+      .desc{
+          font-size: 12px;
+      }
+      .endnote{
+          p{
+              font-size: 15px;
+          }
+      }
+  }
+
+  @media (max-width:320px){
+      .paintingHeader{
+          font-size: 12px;
+          padding: 10px;     
+        }
+        input{
+            height: 20px;
+            width: 20px;
+        }
+        label{
+            margin-left: 10px;
+        }
+        .checks{
+            font-size: 20px;
+            flex-direction: column;
+            margin-left: 15px;
+        }
+        .title{
+            font-size: 12px;
+        }
+        .desc{
+            font-size: 10px;
+        }
+        .endnote{
+            p{
+                font-size: 15px;
+            }
+            button{
+                width: 210px;
+            }
+        }
+  }
