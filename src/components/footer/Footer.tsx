@@ -20,7 +20,7 @@ export const Footer = ()=>{
                     </Card.Text>
                     <Card.Text className="creditsNote mt-5 text-warning">
                      ©2020 Kavi Art Studio. All rights reserved.
-                     Designed by Srija Boora   
+                     Designed by charan pasupunooti.   
                     </Card.Text>
                 </Card.Body>
             </Card> 
@@ -77,7 +77,7 @@ export const Footer = ()=>{
             </ul> 
             <Card.Text className="creditsNote mt-5 text-warning">
                      ©2020 Kavi Art Studio. All rights reserved.
-                     Designed by Srija Boora   
+                     Designed by charan pasupunooti.  
             </Card.Text> 
             </Card>
         </CardGroup>
