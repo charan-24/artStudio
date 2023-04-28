@@ -1,3 +1,2 @@
 # artStudio
-# preview
-https://tubular-stardust-0552be.netlify.app/
+preview:- https://charan24--artstudiotsx.netlify.app/
